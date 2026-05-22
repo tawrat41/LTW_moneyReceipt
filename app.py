@@ -5,9 +5,9 @@ import re
 from PySide6.QtWidgets import (
     QApplication, QWidget, QLabel, QLineEdit, QPushButton,
     QVBoxLayout, QHBoxLayout, QFileDialog, QMessageBox,
-    QGroupBox, QFormLayout, QSpinBox, QDateEdit
+    QGroupBox, QFormLayout, QSpinBox, QDateEdit, QFrame
 )
-from PySide6.QtCore import Qt, QDate
+from PySide6.QtCore import QDate
 from receipt_generator import generate_receipt_pdf
 from utils import amount_to_words
 
@@ -18,7 +18,7 @@ class ReceiptApp(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Lead The Way - Receipt Generator")
-        self.setMinimumSize(900, 650)
+        self.setMinimumSize(760, 620)
         self.next_mr_no = self.load_next_mr_no()
         self.setup_ui()
 
@@ -51,11 +51,98 @@ class ReceiptApp(QWidget):
         self.save_next_mr_no()
 
     def setup_ui(self):
-        main_layout = QHBoxLayout()
+        self.setStyleSheet("""
+            QWidget {
+                background: #f4f7fb;
+                color: #132238;
+                font-size: 13px;
+            }
+            QGroupBox {
+                background: #ffffff;
+                border: 1px solid #d7dfeb;
+                border-radius: 12px;
+                font-weight: 600;
+                margin-top: 14px;
+                padding: 18px 16px 14px 16px;
+            }
+            QGroupBox::title {
+                subcontrol-origin: margin;
+                left: 14px;
+                padding: 0 6px;
+                color: #1f4aa8;
+            }
+            QLabel[role="title"] {
+                color: #16315f;
+                font-size: 26px;
+                font-weight: 700;
+            }
+            QLabel[role="subtitle"] {
+                color: #5a6b86;
+                font-size: 12px;
+            }
+            QLabel[role="summaryValue"] {
+                color: #0f2b57;
+                font-size: 18px;
+                font-weight: 700;
+            }
+            QLineEdit, QDateEdit, QSpinBox {
+                background: #fbfcfe;
+                border: 1px solid #c8d3e1;
+                border-radius: 8px;
+                padding: 8px 10px;
+                min-height: 20px;
+            }
+            QLineEdit:focus, QDateEdit:focus, QSpinBox:focus {
+                border: 1px solid #1f4aa8;
+                background: #ffffff;
+            }
+            QPushButton {
+                min-height: 38px;
+                border-radius: 10px;
+                font-weight: 600;
+                padding: 0 18px;
+            }
+            QPushButton#saveButton {
+                background: #1f4aa8;
+                color: white;
+                border: none;
+            }
+            QPushButton#saveButton:hover {
+                background: #163b88;
+            }
+            QPushButton#printButton {
+                background: #e9eef8;
+                color: #16315f;
+                border: 1px solid #c8d3e1;
+            }
+            QPushButton#printButton:hover {
+                background: #dde7f6;
+            }
+            QFrame#summaryCard {
+                background: #eef4ff;
+                border: 1px solid #d4e1f7;
+                border-radius: 12px;
+            }
+        """)
 
-        # LEFT PANEL
+        main_layout = QVBoxLayout()
+        main_layout.setContentsMargins(28, 24, 28, 24)
+        main_layout.setSpacing(18)
+
+        title_label = QLabel("Receipt Generator")
+        title_label.setProperty("role", "title")
+        subtitle_label = QLabel("Create and save Lead The Way money receipts.")
+        subtitle_label.setProperty("role", "subtitle")
+
+        header_layout = QVBoxLayout()
+        header_layout.setSpacing(2)
+        header_layout.addWidget(title_label)
+        header_layout.addWidget(subtitle_label)
+        main_layout.addLayout(header_layout)
+
         form_group = QGroupBox("Receipt Information")
-        form_layout = QFormLayout()
+        form_layout = QVBoxLayout()
+        form_layout.setSpacing(14)
 
         self.mr_no = QLineEdit(str(self.next_mr_no))
         self.student_name = QLineEdit()
@@ -78,74 +165,84 @@ class ReceiptApp(QWidget):
         self.misc_fee.setMaximum(1000000)
 
         self.total_label = QLabel("0")
+        self.total_label.setProperty("role", "summaryValue")
         self.words_label = QLabel("Zero Taka Only")
         self.words_label.setWordWrap(True)
+
+        self.mr_no.setPlaceholderText("Enter receipt number")
+        self.student_name.setPlaceholderText("Student full name")
+        self.student_class.setPlaceholderText("Class or batch")
+        self.month.setPlaceholderText("Month")
+        self.day.setPlaceholderText("Day")
+        self.time.setPlaceholderText("Time")
 
         self.admission_fee.valueChanged.connect(self.update_total)
         self.monthly_fee.valueChanged.connect(self.update_total)
         self.misc_fee.valueChanged.connect(self.update_total)
 
-        form_layout.addRow("MR No:", self.mr_no)
-        form_layout.addRow("Student Name:", self.student_name)
-        form_layout.addRow("Class:", self.student_class)
-        form_layout.addRow("Month:", self.month)
-        form_layout.addRow("Day:", self.day)
-        form_layout.addRow("Time:", self.time)
-        form_layout.addRow("Date:", self.date)
+        details_group = QGroupBox("Student Details")
+        details_form = QFormLayout()
+        details_form.setContentsMargins(0, 4, 0, 0)
+        details_form.setHorizontalSpacing(18)
+        details_form.setVerticalSpacing(12)
+        details_form.addRow("MR No:", self.mr_no)
+        details_form.addRow("Student Name:", self.student_name)
+        details_form.addRow("Class:", self.student_class)
+        details_form.addRow("Month:", self.month)
+        details_form.addRow("Day:", self.day)
+        details_form.addRow("Time:", self.time)
+        details_form.addRow("Date:", self.date)
+        details_group.setLayout(details_form)
 
-        form_layout.addRow("Admission / Session Fee:", self.admission_fee)
-        form_layout.addRow("Monthly Tuition Fee:", self.monthly_fee)
-        form_layout.addRow("Miscellaneous:", self.misc_fee)
+        fees_group = QGroupBox("Fee Breakdown")
+        fees_form = QFormLayout()
+        fees_form.setContentsMargins(0, 4, 0, 0)
+        fees_form.setHorizontalSpacing(18)
+        fees_form.setVerticalSpacing(12)
+        fees_form.addRow("Admission / Session Fee:", self.admission_fee)
+        fees_form.addRow("Monthly Tuition Fee:", self.monthly_fee)
+        fees_form.addRow("Miscellaneous:", self.misc_fee)
+        fees_group.setLayout(fees_form)
 
-        form_layout.addRow("Total:", self.total_label)
-        form_layout.addRow("In Words:", self.words_label)
+        summary_group = QGroupBox("Receipt Summary")
+        summary_layout = QVBoxLayout()
+        summary_layout.setContentsMargins(0, 4, 0, 0)
+        summary_layout.setSpacing(10)
+
+        summary_card = QFrame()
+        summary_card.setObjectName("summaryCard")
+        summary_card_layout = QFormLayout()
+        summary_card_layout.setContentsMargins(16, 14, 16, 14)
+        summary_card_layout.setHorizontalSpacing(18)
+        summary_card_layout.setVerticalSpacing(10)
+        summary_card_layout.addRow("Total:", self.total_label)
+        summary_card_layout.addRow("In Words:", self.words_label)
+        summary_card.setLayout(summary_card_layout)
+
+        summary_layout.addWidget(summary_card)
+        summary_group.setLayout(summary_layout)
+
+        form_layout.addWidget(details_group)
+        form_layout.addWidget(fees_group)
+        form_layout.addWidget(summary_group)
 
         form_group.setLayout(form_layout)
 
-        # BUTTONS
         button_layout = QHBoxLayout()
+        button_layout.setSpacing(12)
 
         self.save_btn = QPushButton("Save PDF")
+        self.save_btn.setObjectName("saveButton")
         self.print_btn = QPushButton("Print")
+        self.print_btn.setObjectName("printButton")
 
         self.save_btn.clicked.connect(self.save_pdf)
         self.print_btn.clicked.connect(self.print_pdf)
 
         button_layout.addWidget(self.save_btn)
         button_layout.addWidget(self.print_btn)
-
-        left_layout = QVBoxLayout()
-        left_layout.addWidget(form_group)
-        left_layout.addLayout(button_layout)
-
-        # RIGHT PREVIEW
-        preview_group = QGroupBox("Preview")
-        preview_layout = QVBoxLayout()
-
-        self.preview_label = QLabel("Receipt Preview\n(Fill the form)")
-        self.preview_label.setAlignment(Qt.AlignTop)
-        self.preview_label.setStyleSheet("""
-            QLabel {
-                background: white;
-                border: 1px solid #ccc;
-                padding: 20px;
-                font-size: 14px;
-            }
-        """)
-
-        preview_layout.addWidget(self.preview_label)
-        preview_group.setLayout(preview_layout)
-
-        self.mr_no.textChanged.connect(self.update_preview)
-        self.student_name.textChanged.connect(self.update_preview)
-        self.student_class.textChanged.connect(self.update_preview)
-        self.month.textChanged.connect(self.update_preview)
-        self.day.textChanged.connect(self.update_preview)
-        self.time.textChanged.connect(self.update_preview)
-        self.date.dateChanged.connect(self.update_preview)
-
-        main_layout.addLayout(left_layout, 1)
-        main_layout.addWidget(preview_group, 1)
+        main_layout.addWidget(form_group)
+        main_layout.addLayout(button_layout)
 
         self.setLayout(main_layout)
 
@@ -160,29 +257,6 @@ class ReceiptApp(QWidget):
         total = self.get_total()
         self.total_label.setText(str(total))
         self.words_label.setText(amount_to_words(total))
-        self.update_preview()
-
-    def update_preview(self):
-        preview = f"""
-LEAD THE WAY
-
-MR No: {self.mr_no.text()}
-Student: {self.student_name.text()}
-Class: {self.student_class.text()}
-Month: {self.month.text()}
-Day: {self.day.text()}
-Time: {self.time.text()}
-Date: {self.date.text()}
-
-Admission Fee: {self.admission_fee.value()}
-Monthly Fee: {self.monthly_fee.value()}
-Miscellaneous: {self.misc_fee.value()}
-
-TOTAL: {self.get_total()}
-
-{amount_to_words(self.get_total())}
-"""
-        self.preview_label.setText(preview)
 
     def collect_data(self):
         return {
