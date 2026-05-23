@@ -5,7 +5,7 @@ import re
 from PySide6.QtWidgets import (
     QApplication, QWidget, QLabel, QLineEdit, QPushButton,
     QVBoxLayout, QHBoxLayout, QFileDialog, QMessageBox,
-    QGroupBox, QFormLayout, QSpinBox, QDateEdit, QFrame
+    QGroupBox, QFormLayout, QSpinBox, QDateEdit, QFrame, QComboBox
 )
 from PySide6.QtCore import QDate
 from receipt_generator import generate_receipt_pdf
@@ -85,14 +85,14 @@ class ReceiptApp(QWidget):
                 font-size: 18px;
                 font-weight: 700;
             }
-            QLineEdit, QDateEdit, QSpinBox {
+            QLineEdit, QDateEdit, QSpinBox, QComboBox {
                 background: #fbfcfe;
                 border: 1px solid #c8d3e1;
                 border-radius: 8px;
                 padding: 8px 10px;
                 min-height: 20px;
             }
-            QLineEdit:focus, QDateEdit:focus, QSpinBox:focus {
+            QLineEdit:focus, QDateEdit:focus, QSpinBox:focus, QComboBox:focus {
                 border: 1px solid #1f4aa8;
                 background: #ffffff;
             }
@@ -146,10 +146,10 @@ class ReceiptApp(QWidget):
 
         self.mr_no = QLineEdit(str(self.next_mr_no))
         self.student_name = QLineEdit()
-        self.student_class = QLineEdit()
-        self.month = QLineEdit()
-        self.day = QLineEdit()
-        self.time = QLineEdit()
+        self.student_class = QComboBox()
+        self.month = QComboBox()
+        self.day = QComboBox()
+        self.time = QComboBox()
         self.date = QDateEdit()
         self.date.setCalendarPopup(True)
         self.date.setDisplayFormat("dd MMM yyyy")
@@ -171,10 +171,37 @@ class ReceiptApp(QWidget):
 
         self.mr_no.setPlaceholderText("Enter receipt number")
         self.student_name.setPlaceholderText("Student full name")
-        self.student_class.setPlaceholderText("Class or batch")
-        self.month.setPlaceholderText("Month")
-        self.day.setPlaceholderText("Day")
-        self.time.setPlaceholderText("Time")
+        self.student_class.addItems(["3", "4", "5", "6", "7", "8"])
+        self.month.addItem("Select Month")
+        self.month.addItems([
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ])
+        self.day.addItems([
+            "Saturday-Monday-Wednesday",
+            "Sunday-Tuesday-Thursday"
+        ])
+        self.time.addItems([
+            "10:00-11:30",
+            "1:50-3:10",
+            "3:20-4:40",
+            "5:10-6:30",
+            "5:00-6:20",
+            "5:40-7:00",
+            "2:10-3:30",
+            "3:30-4:50",
+            "5:30-6:50"
+        ])
 
         self.admission_fee.valueChanged.connect(self.update_total)
         self.monthly_fee.valueChanged.connect(self.update_total)
@@ -262,10 +289,10 @@ class ReceiptApp(QWidget):
         return {
             "mr_no": self.mr_no.text().strip() or str(self.next_mr_no),
             "student_name": self.student_name.text(),
-            "student_class": self.student_class.text(),
-            "month": self.month.text(),
-            "day": self.day.text(),
-            "time": self.time.text(),
+            "student_class": self.student_class.currentText(),
+            "month": self.month.currentText() if self.month.currentIndex() > 0 else "",
+            "day": self.day.currentText(),
+            "time": self.time.currentText(),
             "date": self.date.date().toString("dd MMM yyyy"),
             "admission_fee": self.admission_fee.value(),
             "monthly_fee": self.monthly_fee.value(),
@@ -276,7 +303,8 @@ class ReceiptApp(QWidget):
 
     def build_default_filename(self):
         student_name = self.student_name.text().strip() or "student"
-        month = self.month.text().strip() or "month"
+        month = self.month.currentText().strip() if self.month.currentIndex() > 0 else ""
+        month = month or "month"
         base_name = f"{student_name}_{month}"
         safe_name = re.sub(r'[<>:"/\\\\|?*]+', "_", base_name)
         safe_name = re.sub(r"\s+", "_", safe_name).strip("._")

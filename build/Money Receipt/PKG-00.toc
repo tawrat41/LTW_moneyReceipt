@@ -62,73 +62,25 @@
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\opengl32sw.dll',
    'BINARY'),
-  ('PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
-   'BINARY'),
   ('PySide6\\plugins\\tls\\qcertonlybackend.dll',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\tls\\qcertonlybackend.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\tls\\qopensslbackend.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\tls\\qopensslbackend.dll',
    'BINARY'),
   ('PySide6\\plugins\\tls\\qschannelbackend.dll',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\tls\\qschannelbackend.dll',
    'BINARY'),
+  ('PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'BINARY'),
   ('PySide6\\plugins\\styles\\qmodernwindowsstyle.dll',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\styles\\qmodernwindowsstyle.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\platforms\\qwindows.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qwebp.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwebp.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qwbmp.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwbmp.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\platforms\\qminimal.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qminimal.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\platforms\\qoffscreen.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qoffscreen.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qpdf.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qpdf.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qsvg.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qsvg.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qtga.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtga.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qjpeg.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qjpeg.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\iconengines\\qsvgicon.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\iconengines\\qsvgicon.dll',
    'BINARY'),
   ('PySide6\\plugins\\imageformats\\qtiff.dll',
    'D:\\Code Repository\\Lead The '
@@ -142,6 +94,26 @@
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qdirect2d.dll',
    'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qpdf.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qpdf.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qminimal.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qsvg.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
   ('PySide6\\plugins\\imageformats\\qgif.dll',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qgif.dll',
@@ -149,6 +121,34 @@
   ('PySide6\\plugins\\imageformats\\qicns.dll',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qtga.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qoffscreen.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwebp.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qwindows.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll',
    'BINARY'),
   ('_zstd.pyd', 'C:\\Python314\\DLLs\\_zstd.pyd', 'EXTENSION'),
   ('_lzma.pyd', 'C:\\Python314\\DLLs\\_lzma.pyd', 'EXTENSION'),
@@ -227,6 +227,10 @@
    'EXTENSION'),
   ('VCRUNTIME140.dll', 'C:\\Python314\\VCRUNTIME140.dll', 'BINARY'),
   ('VCRUNTIME140_1.dll', 'C:\\Python314\\VCRUNTIME140_1.dll', 'BINARY'),
+  ('shiboken6\\MSVCP140.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\shiboken6\\MSVCP140.dll',
+   'BINARY'),
   ('PySide6\\Qt6Core.dll',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\Qt6Core.dll',
@@ -235,21 +239,13 @@
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\Qt6Network.dll',
    'BINARY'),
-  ('shiboken6\\MSVCP140.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\shiboken6\\MSVCP140.dll',
-   'BINARY'),
-  ('PySide6\\Qt6Widgets.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\Qt6Widgets.dll',
-   'BINARY'),
   ('PySide6\\Qt6Gui.dll',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\Qt6Gui.dll',
    'BINARY'),
-  ('PySide6\\Qt6VirtualKeyboard.dll',
+  ('PySide6\\Qt6Widgets.dll',
    'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\Qt6VirtualKeyboard.dll',
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\Qt6Widgets.dll',
    'BINARY'),
   ('PySide6\\Qt6Pdf.dll',
    'D:\\Code Repository\\Lead The '
@@ -259,30 +255,34 @@
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\Qt6Svg.dll',
    'BINARY'),
+  ('PySide6\\Qt6VirtualKeyboard.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\Qt6VirtualKeyboard.dll',
+   'BINARY'),
   ('libcrypto-3.dll', 'C:\\Python314\\DLLs\\libcrypto-3.dll', 'BINARY'),
   ('libssl-3.dll', 'C:\\Python314\\DLLs\\libssl-3.dll', 'BINARY'),
   ('libffi-8.dll', 'C:\\Python314\\DLLs\\libffi-8.dll', 'BINARY'),
-  ('PySide6\\VCRUNTIME140.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\VCRUNTIME140.dll',
-   'BINARY'),
   ('shiboken6\\shiboken6.abi3.dll',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\shiboken6\\shiboken6.abi3.dll',
    'BINARY'),
+  ('PySide6\\VCRUNTIME140_1.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\VCRUNTIME140_1.dll',
+   'BINARY'),
   ('PySide6\\MSVCP140.dll',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\MSVCP140.dll',
+   'BINARY'),
+  ('PySide6\\VCRUNTIME140.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\VCRUNTIME140.dll',
    'BINARY'),
   ('PySide6\\pyside6.abi3.dll',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\pyside6.abi3.dll',
    'BINARY'),
   ('python3.dll', 'C:\\Python314\\python3.dll', 'BINARY'),
-  ('PySide6\\VCRUNTIME140_1.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\VCRUNTIME140_1.dll',
-   'BINARY'),
   ('shiboken6\\VCRUNTIME140.dll',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\shiboken6\\VCRUNTIME140.dll',
@@ -299,21 +299,21 @@
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\MSVCP140_1.dll',
    'BINARY'),
-  ('PySide6\\Qt6Qml.dll',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\Qt6Qml.dll',
-   'BINARY'),
   ('PySide6\\Qt6Quick.dll',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\Qt6Quick.dll',
    'BINARY'),
-  ('PySide6\\Qt6QmlMeta.dll',
+  ('PySide6\\Qt6Qml.dll',
    'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\Qt6QmlMeta.dll',
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\Qt6Qml.dll',
    'BINARY'),
   ('PySide6\\Qt6OpenGL.dll',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\Qt6OpenGL.dll',
+   'BINARY'),
+  ('PySide6\\Qt6QmlMeta.dll',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\Qt6QmlMeta.dll',
    'BINARY'),
   ('PySide6\\Qt6QmlModels.dll',
    'D:\\Code Repository\\Lead The '
@@ -326,65 +326,17 @@
   ('assets\\logo.jpg',
    'D:\\Code Repository\\Lead The Way\\money_receipt\\assets\\logo.jpg',
    'DATA'),
-  ('PySide6\\translations\\qtbase_lg.qm',
+  ('PySide6\\translations\\qt_nl.qm',
    'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_lg.qm',
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_nl.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_help_bg.qm',
+  ('PySide6\\translations\\qt_help_hu.qm',
    'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_bg.qm',
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_hu.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_bg.qm',
+  ('PySide6\\translations\\qt_help_pt_BR.qm',
    'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_bg.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_zh_CN.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_zh_CN.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_tr.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_tr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_da.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_da.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_cs.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_cs.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_ko.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ko.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_pt_PT.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_pt_PT.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_cs.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_cs.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_en.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_en.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_da.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_da.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_ja.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ja.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_pl.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_pl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_lg.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_lg.qm',
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_pt_BR.qm',
    'DATA'),
   ('PySide6\\translations\\qtbase_fa.qm',
    'D:\\Code Repository\\Lead The '
@@ -394,321 +346,369 @@
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_uk.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_tr.qm',
+  ('PySide6\\translations\\qt_help_sl.qm',
    'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_tr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_es.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_es.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_ka.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ka.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_pt_BR.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_pt_BR.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_hu.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_hu.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_fi.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_fi.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_pl.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_pl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_hr.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_hr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_sk.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_sk.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_nl.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_nl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_hu.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_hu.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_ka.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_ka.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_zh_CN.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_CN.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_it.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_it.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_sv.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_sv.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_ca.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_ca.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_ko.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_ko.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_hu.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_hu.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_ru.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ru.qm',
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_sl.qm',
    'DATA'),
   ('PySide6\\translations\\qtbase_pl.qm',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_pl.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_bg.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_bg.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_de.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_de.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_zh_TW.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_TW.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_cs.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_cs.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_hr.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_hr.qm',
-   'DATA'),
   ('PySide6\\translations\\qt_help_nl.qm',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_nl.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_it.qm',
+  ('PySide6\\translations\\qt_help_tr.qm',
    'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_it.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_ru.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_ru.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_zh_CN.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_CN.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_es.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_es.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_gd.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_gd.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_de.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_de.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_nl.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_nl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_sk.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_sk.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_sl.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_sl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_gl.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_gl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_gl.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_gl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_sv.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_sv.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_fi.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_fi.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_en.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_en.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_ar.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ar.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_ar.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_ar.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_tr.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_tr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_ca.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ca.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_ko.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ko.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_sv.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_sv.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_ru.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ru.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_he.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_he.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_hr.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_hr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_lv.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_lv.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_ja.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_ja.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_pt_BR.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_pt_BR.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_sl.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_sl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_da.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_da.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_sk.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_sk.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_nn.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_nn.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_gd.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_gd.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_fa.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_fa.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_ca.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ca.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_lv.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_lv.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_ka.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ka.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_it.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_it.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_fr.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_fr.qm',
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_tr.qm',
    'DATA'),
   ('PySide6\\translations\\qt_help_nn.qm',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_nn.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_help_ar.qm',
+  ('PySide6\\translations\\qt_help_ka.qm',
    'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ar.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_de.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_de.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_fr.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_fr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_nn.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_nn.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_zh_TW.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_zh_TW.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_fr.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_fr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_zh_TW.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_TW.qm',
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ka.qm',
    'DATA'),
   ('PySide6\\translations\\qt_help_uk.qm',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_uk.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_en.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_en.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_ja.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ja.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_es.qm',
-   'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_es.qm',
-   'DATA'),
   ('PySide6\\translations\\qt_uk.qm',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_uk.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_help_pt_BR.qm',
+  ('PySide6\\translations\\qt_help_ru.qm',
    'D:\\Code Repository\\Lead The '
-   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_pt_BR.qm',
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_TW.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_en.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ka.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_ka.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_sv.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_sv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ar.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_da.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hu.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ja.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fr.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_sv.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_sv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sv.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_sv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_sk.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ja.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_bg.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nl.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hr.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_lg.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_lg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_zh_CN.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pt_PT.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_pt_PT.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_tr.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_bg.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_it.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_cs.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pl.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_es.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_cs.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_gd.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_gd.qm',
    'DATA'),
   ('PySide6\\translations\\qt_he.qm',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_he.qm',
    'DATA'),
+  ('PySide6\\translations\\qt_en.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ko.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fr.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nn.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pt_BR.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_da.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ru.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ca.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ru.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_en.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_sk.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_it.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_de.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_tr.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_hr.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_gl.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_gl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_lg.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_lg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sl.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ar.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_gd.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_da.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ca.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_fr.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ka.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ka.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_zh_TW.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_cs.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_pl.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_es.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fa.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_fa.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_lv.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_zh_TW.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_it.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_he.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_hu.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_es.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sk.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_gl.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fi.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_de.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fi.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_lv.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_lv.qm',
+   'DATA'),
   ('PySide6\\translations\\qt_lt.qm',
    'D:\\Code Repository\\Lead The '
    'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_lt.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_zh_CN.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_bg.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_de.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_nn.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ja.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ar.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ca.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_hr.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ko.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pt_BR.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ko.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qt_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_CN.qm',
+   'D:\\Code Repository\\Lead The '
+   'Way\\money_receipt\\.moneyReceipt\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_CN.qm',
    'DATA'),
   ('base_library.zip',
    'D:\\Code Repository\\Lead The Way\\money_receipt\\build\\Money '

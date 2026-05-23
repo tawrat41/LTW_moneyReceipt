@@ -222,7 +222,7 @@ def generate_receipt_pdf(file_path, data):
     c.setFont("Helvetica", 10)
 
     c.drawString(34, table_top - 30, "1.")
-    draw_text_in_box(c, "Admission Fee", 60, 375, table_top - 30, "Helvetica", 10)
+    draw_text_in_box(c, "Admission Fee / Session Fee", 60, 375, table_top - 30, "Helvetica", 10)
 
     c.drawString(34, table_top - 48, "2.")
     draw_text_in_box(c, "Monthly Tuition Fee", 60, 375, table_top - 48, "Helvetica", 10)
